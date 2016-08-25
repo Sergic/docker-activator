@@ -2,7 +2,7 @@
 
 FROM podbox/java8
 
-ENV ACTIVATOR_VERSION 1.3.10
+ENV ACTIVATOR_VERSION 1.3.7
 
 RUN \
     apt-get install -yq wget unzip && \
